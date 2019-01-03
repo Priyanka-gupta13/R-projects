@@ -1,0 +1,38 @@
+Prediction of Loan Status 
+
+Objective : Predicting Loan Status on the basis of   11  factors .
+
+ "Loan_ID"           "Gender"            "Married"           "Dependents"        "Education"        
+  "Self_Employed"     "ApplicantIncome"   "CoapplicantIncome" "LoanAmount"        "Loan_Amount_Term" 
+ "Credit_History"    "Property_Area"     
+
+Models Applicable:
+Logistic
+SVM
+Random Forest
+KNN
+Naive Bayes
+
+Models used : 
+Logistic
+SVM
+Random Forest
+
+Model Selection basis : 
+1.Response variable(Dependent variable) is categorical .
+2.Random forest suggest the most important variables .
+3.KNN not used because there are no parameters .
+4.Naive bayes not used because not all the features are necessarily independent of each other . (e.g. - ApplicantIncome and Property_Area)
+
+Conclusion file : C:\Users\priyanka gupta\Desktop\R projects\loan\loan_pred_with_unbiased.xsml
+
+
+	SVM	logis	Random 		Legend:[ 1 : Yes :Loan_Approved
+1	290	308	306		                      0 : No :Loan_not_Approved]
+0	77	59	61
+TOTAL	367	367	367
+
+
+
+
+
